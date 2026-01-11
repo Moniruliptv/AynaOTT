@@ -1,0 +1,12 @@
+{
+  "category_name": "LIVE",
+  "name": "Jamuna TV",
+  "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/jamuna_tv/playlist.m3u8",
+  "headers": {
+    "Host": "bldcmprod-cdn.toffeelive.com",
+    "cookie": "Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t:Expires=1768308392:KeyName=prod_linear:Signature=Mf3jE1JYKmS9GCyIumQmWNCzZeUjyr03FrkrQQVxlOi8jKHizOVyhPY-gN6sYxoIewljN-plDUQymfoTfJ55Ag; Domain=.toffeelive.com; Path=/; Secure; SameSite=None",
+    "user-agent": "Toffee/8.6.0 (Linux;Android 9) ExoPlayerLib/2.18.6",
+    "accept-encoding": "gzip"
+  },
+  "logo": "https://images.toffeelive.com/images/program/jamuna_tv/logo.png"
+}
