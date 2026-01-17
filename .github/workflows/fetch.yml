@@ -1,0 +1,33 @@
+name: Fetch M3U Playlist
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"   # প্রতি 6 ঘন্টা (চাও তো বদলাও)
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependency
+        run: pip install requests
+
+      - name: Fetch playlist
+        run: python fetch_m3u.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add playlist.m3u
+          git commit -m "Update M3U playlist" || echo "No changes"
+          git push
