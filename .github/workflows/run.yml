@@ -1,7 +1,9 @@
-name: Fetch M3U
+name: Fetch M3U Daily
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"   # প্রতিদিন 12:00 AM UTC (বাংলাদেশ সময় সকাল 6টা)
 
 jobs:
   run:
@@ -19,3 +21,11 @@ jobs:
 
       - name: Run script
         run: python fetch_m3u.py
+
+      - name: Commit playlist
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add playlist.m3u
+          git commit -m "Auto update M3U" || echo "No changes"
+          git push
