@@ -1,16 +1,5 @@
 {
-    "code": 1,
-    "message": "Success",
-    "content": {
-        "user_id": "78be6644-0a65-48ec-81a4-089ac65a2619",
-        "operatorId": "1fb1b4c7-dbd9-469e-88a2-c207dc195869",
-        "status": 1,
-        "token": {
-            "expires_in": 43200,
-            "token_type": "Bearer",
-            "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzhiZTY2NDQtMGE2NS00OGVjLTgxYTQtMDg5YWM2NWEyNjE5Iiwib3BlcmF0b3JJZCI6IjFmYjFiNGM3LWRiZDktNDY5ZS04OGEyLWMyMDdkYzE5NTg2OSIsImdlb0lwUnVsZXMiOnsiZDE3MjUwYTMtMzk4NS00OWJjLWFlOGMtZmU3Y2JiNjA0MDhjIjp0cnVlfSwiZ2VvTG9jYXRpb24iOnsiY291bnRyeSI6IkJEIiwiY2l0eSI6IkZhcsSrZHB1ciIsImlwIjoiMTYzLjIyNy4xNDQuMTc2In0sImRldmljZUlkIjoiNTgyQ0M3ODhEMjUwQ0ZBRENBMUI2OTREODY4Mjg4QTcifSwiaWF0IjoxNzcxMzk2MDc2LCJleHAiOjE3NzE0MzkyNzZ9.4QaSYzE1r9EyW8Mg3rBKaxMRjhuUew1BRFqLrOxXoqQ",
-            "refresh_token": "1TasjAcgP8qGgGCg32Mc41lkWmc0MVO1Ry0XmBYQiICvXzXMo7v9aDkGIItq9jzuqGTxI1NSlzFDFQ7l2Vk2V7OGgh2epEWyiRrZjZR75cuqIZEG8ChLMbVJWk89NqJyofNJhdsp4aCJ6ks6WAPENrQqrQ9D3WxRF9Sa5UIE9bwHWDRAenYrnYrEkPSXC8mONHgybq0DvPNU9lhkwgUj89yeODR0UwlAoJHHGvjcOQVf1SB6atNKfECp6DiZQ9O5"
-        }
-    },
-    "execTime": 376
+    "code": 102,
+    "message": "User not found",
+    "execTime": 13
 }
